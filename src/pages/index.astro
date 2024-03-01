@@ -4,22 +4,31 @@ import Header from "../components/Header.astro";
 import Button from "../components/Button.astro";
 ---
 
-<Layout title="Home | ACME">
+<Layout title="Portifólio">
   <Header />
 
   <main class="mt-16 xl:mt-24 px-8 md:px-12 xl:px-28 flex flex-col gap-16 xl:flex-row-reverse xl:items-center">
-    <img src="undraw_on_the_way_re_swjt.svg" alt="" class="mx-auto xl:w-full" />
-
+    <img  src="foto_perfil_1-1.svg" 
+          alt="foto_perfil" 
+          class="w-48 h-48 md:w-32 md:h-32 xl:w-64 xl:h-64 rounded-full border-2 border-white mx-auto xl:mr-12" />
+  
     <div class="flex flex-col gap-8 items-center xl:items-start text-center xl:text-left">
-      <h1 class="text-4xl xl:text-5xl font-bold">
-        Anything You May Need, Delivered To You
-        <span class="text-cyan-600 dark:text-cyan-400">Today</span>!
+      <h1 class="text-3xl xl:text-4xl font-bold">
+        Olá, eu sou o 
+        <span class="text-cyan-600 dark:text-cyan-400">Reinaldo</span>! 👋
       </h1>
       <p class="md:text-xl">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore aliqua.
+        Desenvolvedor de Software
+      </p>
+      <h2 id="sobre-mim" class="text-2xl font-bold mt-8 mb-4">Sobre Mim</h2>
+      <p class="md:text-xl">
+        "Com uma paixão pela tecnologia e experiência em projetos acadêmicos na Faculdade FIAP, estou imerso nos desafios do mercado, colaborando com instituições de renome para oferecer soluções inovadoras. Especializado em desenvolvimento web, mobile e desktop, estou comprometido em superar as expectativas dos clientes com soluções eficientes e pioneiras."
       </p>
       <Button />
+      
+      
+      
     </div>
   </main>
+  
 </Layout>
