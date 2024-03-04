@@ -2,12 +2,13 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Button from "../components/Button.astro";
+import Projects from "../components/Projects.astro";
 ---
 
 <Layout title="Portifólio">
   <Header />
 
-  <main class="mt-16 xl:mt-24 px-8 md:px-12 xl:px-28 flex flex-col gap-16 xl:flex-row-reverse xl:items-center">
+  <main class="mt-16 xl:mt-24 px-8 md:px-12 xl:px-28 flex flex-col gap-16 xl:flex-row-reverse xl:items">
     <img  src="foto_perfil_1-1.svg" 
           alt="foto_perfil" 
           class="w-48 h-48 md:w-32 md:h-32 xl:w-64 xl:h-64 rounded-full border-2 border-white mx-auto xl:mr-12" />
@@ -20,13 +21,19 @@ import Button from "../components/Button.astro";
       <p class="md:text-xl">
         Desenvolvedor de Software
       </p>
+      <p></p>
+    
+    
+
+
       <h2 id="sobre-mim" class="text-2xl font-bold mt-8 mb-4">Sobre Mim</h2>
       <p class="md:text-xl">
-        "Com uma paixão pela tecnologia e experiência em projetos acadêmicos na Faculdade FIAP, estou imerso nos desafios do mercado, colaborando com instituições de renome para oferecer soluções inovadoras. Especializado em desenvolvimento web, mobile e desktop, estou comprometido em superar as expectativas dos clientes com soluções eficientes e pioneiras."
+        <span>🎓</span>Sou um desenvolvedor full-stack com habilidades em diversas tecnologias, incluindo Astro, React, Next, Java, PHP, JavaScript, TypeScript, SQL, Kotlin e Flutter. Minha experiência abrange o desenvolvimento de soluções inovadoras para plataformas web, mobile e desktop. Tenho um compromisso firme em superar as expectativas dos clientes. Estou pronto para colaborar de perto com equipes multidisciplinares na tradução de requisitos do usuário em soluções técnicas eficazes.
       </p>
-      <Button />
       
-      <Header />
+      <Projects />
+
+      <Button />
       
     </div>
   </main>
